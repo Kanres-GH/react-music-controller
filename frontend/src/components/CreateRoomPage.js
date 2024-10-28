@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Grid2, Typography, Button, TextField, FormControl, FormHelperText, Radio, RadioGroup, FormControlLabel, Box } from "@mui/material";
+import { Grid2, Typography, Button, TextField, FormControl, FormHelperText, Radio, RadioGroup, FormControlLabel } from "@mui/material";
 import { Link } from "react-router-dom";
 import {useNavigate} from "react-router-dom";
 
@@ -37,7 +37,7 @@ export default function CreateRoomPage() {
 
     return (
 
-    <Grid2 container direction={"column"} spacing={1} justifyContent={"center"} alignItems={"center"} sx={{width: 1}}>
+    <Grid2 container direction={"column"} spacing={1}>
         <Grid2 size={{xs: 12}} align="center">
             <Typography component="h4" variant="h4">
                 Create A Room

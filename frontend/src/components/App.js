@@ -3,17 +3,16 @@ import { createRoot } from "react-dom/client";
 import HomePage from "./Homepage";
 
 
-export default class App extends Component {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
+export default function App() {
+    // constructor(props) {
+    //     super(props);
+    // }
         
-        return (
+    return (
+        <div className="center">
             <HomePage />
-        );
-    }
+        </div>
+    );
 }
 
 const appDiv = document.getElementById("app");
